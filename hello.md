@@ -1,1 +1,1 @@
-I am learning how to use Git!
+I have finished learning how to use Git!
