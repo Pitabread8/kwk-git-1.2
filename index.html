@@ -7,35 +7,103 @@
     <title>about me</title>
 </head>
 
-<body>
-    <h1>sita vemuri</h1>
+<body class="flex flex-col justify-center items-center p-8">
+    <h1 class="text-4xl font-bold">sita vemuri</h1>
 
-    <p>hiii! i'm sita. i'm an incoming college freshman and i love to code. you can find out more about me below!</p>
-    
-    <div id="image-container" class="flex gap-8 p-8 bg-green-400">
-        <!-- <img src="images/pic-1.jpeg" /> -->
+    <p class="my-2">hiii! i'm sita. i'm an incoming college freshman and i love to code. you can find out more about me
+        below!</p>
+    <p class="mt-2 text-xl">photos i've taken:</p>
+
+    <div id="image-container" class="flex w-2/3 max-width-1/4 mb-2 items-center">
+        <div class="flex-1/4 max-width-1/4 p-2">
+            <div>
+                <img class="rounded-lg vertical-align-middle w-full" src="images/pic-5.jpeg" />
+                <p class="relative bottom-10 h-0 text-center text-white text-lg">crochet</p>
+            </div>
+            <div>
+                <img class="rounded-lg mt-4 vertical-align-middle w-full" src="images/pic-7.jpeg" />
+                <p class="relative bottom-10 h-0 text-center text-white text-lg">maple!</p>
+            </div>
+        </div>
+        <div class="flex-1/4 max-width-1/4 p-2">
+            <div>
+                <img class="rounded-lg vertical-align-middle w-full" src="images/pic-2.jpeg" />
+                <p class="relative bottom-10 h-0 text-center text-white text-lg">nature</p>
+            </div>
+            <div>
+                <img class="rounded-lg mt-4 vertical-align-middle w-full" src="images/pic-4.jpeg" />
+                <p class="relative bottom-10 h-0 text-center text-white text-lg">crochet</p>
+            </div>
+            <div>
+                <img class="rounded-lg mt-4 vertical-align-middle w-full" src="images/pic-1.jpeg" />
+                <p class="relative bottom-8 h-0 text-center text-black text-lg">film photography</p>
+            </div>
+        </div>
+        <div class="flex-1/4 max-width-1/4 p-2">
+            <div>
+                <img class="rounded-lg vertical-align-middle w-full" src="images/pic-6.jpeg" />
+                <p class="relative bottom-12 h-0 text-center text-white text-lg">coco!</p>
+            </div>
+            <div>
+                <img class="rounded-lg mt-4 vertical-align-middle w-full" src="images/pic-3.jpeg" />
+                <p class="relative bottom-10 h-0 text-center text-white text-lg">wildlife</p>
+            </div>
+
+        </div>
     </div>
 
-    <p>currently thinking about: <a href="" target="_blank"></a></p>
+    <div class="flex flex-row items-center justify-center gap-2 my-2">
+        <p class="text-xl">currently thinking about: </p>
+        <a href="https://www.manning.com/books/grokking-algorithms" target="_blank"
+            class="pb-[1px] underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-2">sapir-whorf
+            hypothesis</a>
+        <a href="https://plato.stanford.edu/entries/linguistics/whorfianism.html" target="_blank"
+            class="pb-[1px] underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-2">grokking
+            algorithms</a>
+        <a href="https://www.nintendo.com/us/gaming-systems/switch-2/featured-games/donkey-kong-bananza" target="_blank"
+            class="pb-[1px] underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-2">dk
+            bananza</a>
+    </div>
+    <div class="w-2/3 flex flex-row items-center justify-center mt-2 gap-4">
+        <p class="text-2xl [writing-mode:sideways-lr]">snippets of my coding journey:</p>
+        <div>
+            <div class="mb-4">
+                <a href="https://pitabread8.github.io/Friday-Dinner" target="_blank"
+                    class="underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-4 text-lg underline-offset-4">friday
+                    dinner</a>
+                <p>taught myself html, css, & vanilla js to make this project 4 years ago. you can learn about
+                    alternative voting systems and interact with them in a simulator!</p>
+            </div>
 
-    <p>some snippets of my coding journey:</p>
-    <a href="https://pitabread8.github.io/Friday-Dinner" target="_blank">friday dinner</a>
-    <p>taught myself html, css, & vanilla js to make this project 4 years ago. you can learn about alternative voting systems and interact with them in a simulator!</p>
-    
-    <a href="https://github.com/bsampada/RecipeRaiders2" target="_blank">recipe raiders</a>
-    <p>i made this project with two lovely girls as part of the KWK mobile app development program in 2023. it was an ios app designed to gamify and inspire people to cook recipes around the world while learning about different cultures!</p>
-    
-    <a href="https://plutus-project.vercel.app" target="_blank">plutus</a>
-    <p>with credit cards and tap to pay, money starts to feel like 0s and 1s and it can be easy to lose sight of just how much you're buying. plutus is for tracking all your spending and ensuring you can stay within budget!</p>
-    
-    <p>up next:</p>
-    <p>cs @ columbia!</p>
+            <div class="mb-4">
+                <a href="https://github.com/bsampada/RecipeRaiders2" target="_blank"
+                    class="underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-4 text-lg underline-offset-4">recipe
+                    raiders</a>
+                <p>i made this project with two lovely girls as part of the KWK mobile app development program in 2023.
+                    it was an ios app designed to gamify cooking and inspire people to prepare recipes from around the
+                    world while learning about different cultures!</p>
+            </div>
 
-    <p>fun facts:</p>
-    <ol>
-        <li>i've never lost a fight against a hippopotamus.</li>
-        <li>i was once TIME's person of the year.</li>
-        <li>i have two dogs.</li>
+            <div class="mb-4">
+                <a href="https://plutus-project.vercel.app" target="_blank"
+                    class="underline text-blue-500 hover:text-blue-800 visited:text-purple-800 underline-offset-4 text-lg underline-offset-4">plutus</a>
+                <p>with credit cards and tap to pay, money starts to feel like 0s and 1s and it can be easy to lose
+                    sight of just how much you're buying. plutus is for tracking all your spending and ensuring you can
+                    stay within budget!</p>
+            </div>
+            <div class="mb-4">
+                <p class="text-lg">up next:</p>
+                <p>✨ cs @ columbia! ✨</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-xl mt-2">fun facts:</p>
+    <ol class="list-decimal">
+        <li class="my-1">i've never lost a fight against a hippopotamus. 🦛</li>
+        <li>i play the violin. 🎻</li>
+        <li class="my-1">i was once TIME's person of the year (2006). 📰</li>
+        <li class="my-1">i have two dogs. 🐶</li>
     </ol>
 </body>
 
